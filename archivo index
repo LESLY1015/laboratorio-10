@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>Laboratorio 10</title>
+</head>
+<body>
+    <script type="text/javascript">
+        ///EJERCICIO 1 DEL LABORATORIO
+        let nombre = "andry";
+        let edad = 19;
+        let estudiante = true;
+
+        //publicar la variable en la consola 
+        console.log("nombre: ",nombre);
+        console.log("edad :",edad);
+        console.log("estudiante: ",nombre);
+        //publicar en la pagina
+        document.write("nombre:",nombre);        
+        document.write("edad:",edad);        
+        document.write(" Es estudiante:",estudiante); 
+        ///FIN EJERCICIO 1 DEL LABORATORIO
+
+        ///EJERCICIO 2 DEL LABORATORIO 
+        let numero1 = 100;
+        let numero2 = 20;
+        let suma = numero1 + numero2;
+        let resta = numero1 - numero2;
+        let multiplicacion= numero1 * numero2;
+        let divicion = numero1 / numero2;
+
+        //publicamos en consola
+        console.leg("suma = ", suma);
+        console.leg("resta = ", resta);
+        console.leg("multiplicacion = ", multiplicacion);
+        console.leg("divicion = ", divicion );
+
+        //publicacar en la pagina 
+        document.write("<br>suma = ",suma);
+        document.write("<br>resta = ",resta);
+        document.write("<br>multiplicacion = ",multiplicacion);
+        document.write("<br>divicion = ",divicion);
+
+        ///FIN DEL EJERCICIO 2
+    </script>
